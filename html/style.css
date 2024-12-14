@@ -1,1 +1,13 @@
 /* https://github.com/AMDRadeonRX6750XT/tictactoe-web */
+
+
+.game-grid {
+	display: grid;
+	grid-template-columns: auto auto auto;
+}
+
+.game-grid-item {
+	text-align: center;
+	padding: 20px;
+	background-color: #dddddd;
+}
